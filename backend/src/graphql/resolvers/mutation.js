@@ -1,5 +1,5 @@
 
-import Message from "../../models/Message";
+import Message from "../../models/Message"
 
 const Mutation = {
   createMessage: async (_, { title, content, author }) => {
