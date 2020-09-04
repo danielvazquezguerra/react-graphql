@@ -6,3 +6,4 @@ mongoose.connect('mongodb://localhost/graphqlreactdb', {
 })
 
 .then( db => console.log('MONEYBALL'))
+.catch(err => console.log(err));
